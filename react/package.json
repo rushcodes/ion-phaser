@@ -23,7 +23,7 @@
   },
   "scripts": {
     "build": "npm run clean && npm run compile",
-    "clean": "rm -rf dist",
+    "clean": "del /s dist",
     "compile": "npm run tsc",
     "tsc": "tsc -p .",
     "lint": "tsc --noEmit && eslint 'src/**/*.{js,ts,tsx}' --quiet --fix --ignore-pattern 'src/react-component-lib/*' --no-eslintrc -c .eslintrc.json"
