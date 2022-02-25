@@ -55,9 +55,9 @@
     "typescript": "^3.3.4000"
   },
   "peerDependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "phaser": "^3.19.0"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "phaser": "^3.55.2"
   },
   "jest": {
     "preset": "ts-jest",
