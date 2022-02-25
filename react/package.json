@@ -1,6 +1,6 @@
 {
-  "name": "@ion-phaser/react",
-  "version": "1.3.0",
+  "name": "@rush-codes-phaser/react",
+  "version": "1.3.1",
   "description": "React specific wrapper for @ion-phaser/core",
   "keywords": [
     "ionic",
@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/proyecto26/ion-phaser.git"
+    "url": "https://github.com/rushcodes/ion-phaser.git"
   },
   "scripts": {
     "build": "npm run clean && npm run compile",
