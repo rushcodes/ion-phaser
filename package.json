@@ -1,5 +1,5 @@
 {
-  "name": "@rush-codes/core",
+  "name": "@rush-codes-phaser/core",
   "version": "1.3.1",
   "private": false,
   "description": "A web component to integrate Phaser Framework with Angular, React, Vue, etc",
