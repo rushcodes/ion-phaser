@@ -1,0 +1,8 @@
+node_modules
+.github
+.stencil
+.editorconfig
+
+react/
+demo-*
+img/

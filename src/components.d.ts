@@ -5,25 +5,8 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
-import { GameInstance } from "./components/models/game";
 export namespace Components {
     interface IonPhaser {
-        /**
-          * Destroy the Phaser game instance
-         */
-        "destroy": () => Promise<void>;
-        /**
-          * Set the configuration of the game
-         */
-        "game"?: GameInstance;
-        /**
-          * Get the Phaser game instance
-         */
-        "getInstance": () => Promise<GameInstance['instance']>;
-        /**
-          * Initialize the phaser game manually
-         */
-        "initialize"?: boolean;
     }
 }
 declare global {
@@ -39,14 +22,6 @@ declare global {
 }
 declare namespace LocalJSX {
     interface IonPhaser {
-        /**
-          * Set the configuration of the game
-         */
-        "game"?: GameInstance;
-        /**
-          * Initialize the phaser game manually
-         */
-        "initialize"?: boolean;
     }
     interface IntrinsicElements {
         "ion-phaser": IonPhaser;
