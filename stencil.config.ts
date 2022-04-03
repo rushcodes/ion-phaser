@@ -5,7 +5,7 @@ export const config: Config = {
   namespace: 'ionphaser',
   outputTargets: [
     reactOutputTarget({
-      componentCorePackage: '@ion-phaser/core',
+      componentCorePackage: '@rushcodes/ion-phaser-core',
       proxiesFile: './react/src/components.ts',
       includeDefineCustomElements: true,
       includePolyfills: true

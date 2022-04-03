@@ -103,7 +103,8 @@ export const syncEvent = (
       if (newEventHandler) {
         newEventHandler.call(this, e);
       }
-    })
+    }),
+    { capture: true }
   );
 };
 

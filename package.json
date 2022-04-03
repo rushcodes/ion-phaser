@@ -1,6 +1,6 @@
 {
   "name": "@rushcodes/ion-phaser-core",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "private": false,
   "description": "A web component to integrate Phaser Framework with Angular, React, Vue, etc",
   "author": "Proyecto 26",
@@ -57,7 +57,7 @@
     "lint": "eslint src/**/*{.ts,.tsx}"
   },
   "dependencies": {
-    "@stencil/core": "^2.4.0"
+    "@stencil/core": "^2.15.0"
   },
   "peerDependencies": {
     "phaser": "^3.55.2"
@@ -65,11 +65,17 @@
   "devDependencies": {
     "@stencil/eslint-plugin": "^0.4.0",
     "@stencil/react-output-target": "^0.3.1",
+    "@types/jest": "^27.4.1",
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.33.0",
     "eslint": "^7.32.0",
     "eslint-plugin-react": "^7.22.0",
-    "phaser": "^3.55.2"
+    "jest": "^27.5.1",
+    "jest-cli": "^27.5.1",
+    "phaser": "^3.55.2",
+    "puppeteer": "^13.5.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "license": "MIT",
   "repository": {
